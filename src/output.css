@@ -9,6 +9,7 @@
     --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-red-100: oklch(93.6% 0.032 17.717);
     --color-white: #fff;
     --spacing: 0.25rem;
     --font-weight-medium: 500;
@@ -205,6 +206,9 @@
   .flex-col {
     flex-direction: column;
   }
+  .items-center {
+    align-items: center;
+  }
   .justify-between {
     justify-content: space-between;
   }
@@ -251,6 +255,9 @@
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
   }
+  .py-30 {
+    padding-block: calc(var(--spacing) * 30);
+  }
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
   }
@@ -269,6 +276,9 @@
   .text-\[22px\] {
     font-size: 22px;
   }
+  .text-\[40px\] {
+    font-size: 40px;
+  }
   .text-\[60px\] {
     font-size: 60px;
   }
@@ -279,6 +289,12 @@
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
+  }
+  .text-\[\#686868\] {
+    color: #686868;
+  }
+  .text-red-100 {
+    color: var(--color-red-100);
   }
   .text-white {
     color: var(--color-white);
