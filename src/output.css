@@ -165,6 +165,12 @@
   }
 }
 @layer utilities {
+  .fixed {
+    position: fixed;
+  }
+  .top-0 {
+    top: 0px;
+  }
   .m-auto {
     margin: auto;
   }
@@ -173,6 +179,9 @@
   }
   .table {
     display: table;
+  }
+  .w-full {
+    width: 100%;
   }
   .max-w-300 {
     max-width: calc(var(--spacing) * 300);
